@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font: size 17px; ;
+  color:black;
+  line-height: 1.6;
+
+}
+
+
+#showcase{
+  background-image:url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60/img/showcase.jpg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  padding:0 20px; 
+}
+#showcase h1{
+  font-size: 50px;
+  line-height: 1.2;
+
+}
+
+
+
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;}
+
+.fa-facebook {
+  background: transparent;
+  color: black; 
+}
+.fa-snapchat-ghost {
+  background: transparent;
+  color: black;
+}
+.fa-instagram {
+    background: transparent;
+    color: black; 
+}
+.fa-twitter {
+  background: transparent;
+    color: black; 
+ }   
+
+#showcase p{
+  font-size:20px;
+
+}
+#button {
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration: none;
+  color: blue;
+  border: orange 1px solid;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin-top: 0;
+  order: 3;
+  flex-direction: grid;
+  justify-content: center;
+}
+
+#showase .button:hover{
+  background: black;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button{
+  flex-wrap: wrap;
+}
